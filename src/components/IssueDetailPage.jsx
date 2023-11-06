@@ -8,8 +8,8 @@ function IssueDetailPage({ issue }) {
   return (
     <div>
       <h1>Issue Details</h1>
-      <h2>{issue.title}</h2>
-      <p>{issue.description}</p>
+      <h2> <a href="details.jsx">{issue.title} </a></h2>
+      
     </div>
   );
 }

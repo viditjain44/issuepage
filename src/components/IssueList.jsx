@@ -74,9 +74,10 @@
 
 // export default IssueList;
 
-// IssueList.js
+
 import React, { useEffect, useState } from 'react';
 import IssueItem from './IssueItem';
+
 import IssueDetailPage from './IssueDetailPage'; // Import the IssueDetailPage component
 import './IssueList.css';
 function IssueList() {
@@ -91,10 +92,10 @@ function IssueList() {
           const issuesData = await response.json();
           setIssues(issuesData);
         } else {
-          console.error('Failed to fetch issues');
+          console.error('failed to fetch issues');
         }
       } catch (error) {
-        console.error('Error fetching issues:', error);
+        console.error('error fetching issues', error);
       }
     };
 

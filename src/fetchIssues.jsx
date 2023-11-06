@@ -24,3 +24,4 @@ axios
   .catch((error) => {
     console.error('Error fetching issues:', error);
   });
+  export default fetchIssues;
