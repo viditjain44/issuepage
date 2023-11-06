@@ -1,8 +1,8 @@
 const axios = require('axios');
 
 // Replace these values with your own GitHub username, repository, and personal access token
-const username = 'gitlabhq';
-const repository = 'gitlabhq';
+const username = 'microsoft';
+const repository = 'WSL';
 
 const token = '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';
 

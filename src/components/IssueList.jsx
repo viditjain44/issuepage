@@ -87,7 +87,7 @@ function IssueList() {
   useEffect(() => {
     const fetchIssues = async () => {
       try {
-        const response = await fetch('https://api.github.com/repos/gitlabhq/gitlabhq/issues');
+        const response = await fetch('https://api.github.com/repos/microsoft/WSL/issues');
         if (response.ok) {
           const issuesData = await response.json();
           setIssues(issuesData);
